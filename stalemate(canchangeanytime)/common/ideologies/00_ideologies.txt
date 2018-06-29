@@ -1,11 +1,12 @@
 ideologies = {
 
-Paternal Autocrat = {
+	paternal_autocrat = {
 	
 		types = {
 			
 			monarchism = {
 			}	
+
 			totalitarianism = {
 			}
 		}
@@ -43,9 +44,7 @@ Paternal Autocrat = {
 		ai_fascist = yes 
 	}
 
-######################################
-
-	Social Democracy = {
+	socialism = {
 	
 		types = {
 			
@@ -90,9 +89,8 @@ Paternal Autocrat = {
 		ai_communist = yes 
 	}
 
-####################################################################
 
-	Conservatism = {
+	conservatism = {
 	
 		types = {
 			
@@ -140,8 +138,6 @@ Paternal Autocrat = {
 		}
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
-
-####################################################################
 
 	Liberalism = {
 	
@@ -198,9 +194,8 @@ Paternal Autocrat = {
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
-####################################################################
 
-	Communism = {
+	communism = {
 		
 		types = {
 		
@@ -234,7 +229,7 @@ Paternal Autocrat = {
 		
 		color = { 255 0 0 }
 		
-		war_impact_on_world_tension = 0.75		#Commie less threatening
+		war_impact_on_world_tension = 0.75		
 		faction_impact_on_world_tension = 0.5
 		
 		ai_communist = yes # uses the commie AI behaviour
@@ -255,9 +250,8 @@ Paternal Autocrat = {
 
 	}
 
-####################################################################
 
-	Fascism = {
+	fascism = {
 	
 		types = {
 		
@@ -286,7 +280,7 @@ Paternal Autocrat = {
 		
 		color = { 150 75 0 }
 		
-		war_impact_on_world_tension = 1.0			#evil!
+		war_impact_on_world_tension = 1.0			
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
@@ -302,7 +296,7 @@ Paternal Autocrat = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 	
-	Authoritarianism = {
+	authoritarianism = {
 	
 		types = {
 		
@@ -355,7 +349,7 @@ Paternal Autocrat = {
 		can_be_boosted = no
 		can_collaborate = yes
 
-		ai_neutral = yes # 
+		ai_neutral = yes 
 	}
 }
 
