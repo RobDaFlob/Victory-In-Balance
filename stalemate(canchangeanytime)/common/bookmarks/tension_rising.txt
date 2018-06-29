@@ -1,0 +1,15 @@
+bookmarks = {
+	bookmark = {
+		name = "Tension Rising"
+		desc = "TENSION_RISING_DESC"
+		date = 1945.1.1.12
+		picture = "GFX_select_date_1945"
+		default_country = "GER"
+	
+		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
